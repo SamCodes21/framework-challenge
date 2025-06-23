@@ -1,0 +1,24 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .hero {
+    background: url('../Images/redPanda.jpg') center/cover no-repeat;
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 5px #000;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .animal-card img {
+    height: 200px;
+    object-fit: cover;
+  }
